@@ -1,7 +1,7 @@
 require("mason").setup()
 require("mason-lspconfig").setup()
 require("mason-null-ls").setup({
-	ensure_installed = { "black" }
+	ensure_installed = { "black", "jedi-language-server" }
 })
 
 local null_ls = require("null-ls")
